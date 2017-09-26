@@ -121,3 +121,21 @@ body {
     background-position: center;
     width: 33px;
     height: 29px; }
+
+.intro {
+  text-align: center; }
+
+.pluses {
+  text-align: center; }
+
+.advantage {
+  text-align: center; }
+
+.solutions {
+  text-align: center; }
+
+.info {
+  text-align: center; }
+
+.testimonials {
+  text-align: center; }

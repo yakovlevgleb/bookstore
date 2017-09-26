@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 	<head>
 
@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="css/app.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<meta property="og:image" content="path/to/image.jpg">
 
@@ -26,161 +26,191 @@
 	<body>
 
 		<header class="header">
-			<nav class="nav">
-				<button type="button" title="Menu">Menu</button>
-			</nav>
-			<a href="#" class="header__logo"><img src="img/logo.png" width="162px" height="19px" alt=""></a>
-			<a href="#" class="header__phone">+11 235 813 2134</a>
-			<button type="button" title="Logout" class="header__logout">Logout</button>
+			<div class="container col-lg-10 col-md-10 col-sm-10 col-10">
+				<div class="row">
+					<nav class="nav">
+						<button type="button" title="Menu">Menu</button>
+					</nav>
+					<a href="#" class="header__logo"><img src="img/logo.png" width="162" height="19" alt=""></a>
+					<a href="#" class="header__phone">+11 235 813 2134</a>
+					<button type="button" title="Logout" class="header__logout">Logout</button>
+				</div>
+			</div>
 		</header>
 
 		<main>
 
 			<section class="intro">
 				<div class="container">
-					<h1>Create your own photostory</h1>
+					<h2>Create your own photostory</h2>
 					<p>Make your photobook online</p>
 					<a href="#">Make your photobook</a>
 				</div>
 			</section>
 
 			<section class="pluses">
-				<div class="pluses__item">
-					<img src="" alt="">
-					<h3>Download photos</h3>
-				</div>
-				<div class="pluses__item">
-					<img src="" alt="">
-					<h3>Design your photobook</h3>
-				</div>
-				<div class="pluses__item">
-					<img src="" alt="">
-					<h3>Pay<br>
-						for service</h3>
-				</div>
-				<div class="pluses__item">
-					<img src="" alt="">
-					<h3>Get your photobook</h3>
+				<div class="container col-lg-8 col-8">
+					<div class="row">
+						<div class="col-lg-3 pluses__item">
+							<img src="" alt="">
+							<h3>Download photos</h3>
+						</div>
+						<div class="col-lg-3 pluses__item">
+							<img src="" alt="">
+							<h3>Design your photobook</h3>
+						</div>
+						<div class="col-lg-3 pluses__item">
+							<img src="" alt="">
+							<h3>Pay<br>
+								for service</h3>
+						</div>
+						<div class="col-lg-3 pluses__item">
+							<img src="" alt="">
+							<h3>Get your photobook</h3>
+						</div>
+					</div>
 				</div>
 			</section>
 
 			<section class="advantage">
-				<h2>Advantage</h2>
-				<div class="advantage__elements">
-					<div class="advantage__item">
-						<img src="" alt="">
-						<h3>Import photos from your social networks</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt modi tempora</p>
+				<div class="container">
+					<h2>Advantage</h2>
+					<div class="container col-sm-10 col-10">
+						<div class="row advantage__elements">
+							<div class="col-lg-4 advantage__item">
+								<img src="" alt="">
+								<h3>Import photos from your social networks</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt modi tempora</p>
+							</div>
+							<div class="col-lg-4 advantage__item">
+								<img src="" alt="">
+								<h3>Photo editing</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ora incidunt ut labore.</p>
+							</div>
+							<div class="col-lg-4 advantage__item">
+								<img src="" alt="">
+								<h3>Templates</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.</p>
+							</div>
+						</div>
 					</div>
-					<div class="advantage__item">
-						<img src="" alt="">
-						<h3>Photo editing</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ora incidunt ut labore.</p>
-					</div>
-					<div class="advantage__item">
-						<img src="" alt="">
-						<h3>Templates</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing. Ut enim ad minim, nostrud exercitation ullamco laboris nisi ut aliquip ex commodo.</p>
-					</div>
+					<a href="#">Make your photobook</a>
 				</div>
-				<a href="#">Make your photobook</a>
 			</section>
 
 			<section class="solutions">
-				<h2>Redy solutions</h2>
-				<div class="solutions__elements">
-					<div class="solutions__item">
-						<h3>LightBook</h3>
-						<div class="solutions__content">
-							<ul>
-								<li>15×10 cm</li>
-								<li>12 pages</li>
-								<li>binding on the clip</li>
-							</ul>
-							<span>$129</span>
-						</div>
-						<span>Make your LightBook</span>
-					</div>
-				</div>
+				<div class="container">
+					<h2>Redy solutions</h2>
+					<div class="container col-sm-10 col-10">
+						<div class="row">
 
-				<div class="solutions__elements bestseller">
-					<div class="solutions__item">
-						<h3>ClassicBook</h3>
-						<div class="solutions__content">
-							<ul>
-								<li>30×21 cm</li>
-								<li>36 pages</li>
-								<li>binding on the spring</li>
-								<li>fabric cover</li>
-							</ul>
-							<span>$239</span>
-						</div>
-						<span>Make your ClassicBook</span>
-					</div>
-				</div>
+							<div class="col-lg-4 solutions__item">
+								<h3>LightBook</h3>
+								<div class="solutions__content">
+									<ul>
+										<li>15×10 cm</li>
+										<li>12 pages</li>
+										<li>binding on the clip</li>
+									</ul>
+									<span>$129</span>
+								</div>
+								<span>Make your LightBook</span>
+							</div>
 
-				<div class="solutions__elements">
-					<div class="solutions__item">
-						<h3>PremiumBook</h3>
-						<div class="solutions__content">
-							<ul>
-								<li>42×50 cm</li>
-								<li>50 pages</li>
-								<li>hardcover</li>
-								<li>leather cover</li>
-								<li>free shipping</li>
-							</ul>
-							<span>$759</span>
+							<div class="col-lg-4 solutions__item bestseller">
+								<h3>ClassicBook</h3>
+								<div class="solutions__content">
+									<ul>
+										<li>30×21 cm</li>
+										<li>36 pages</li>
+										<li>binding on the spring</li>
+										<li>fabric cover</li>
+									</ul>
+									<span>$239</span>
+								</div>
+								<span>Make your ClassicBook</span>
+							</div>
+
+							<div class="col-lg-4 solutions__item">
+								<h3>PremiumBook</h3>
+								<div class="solutions__content">
+									<ul>
+										<li>42×50 cm</li>
+										<li>50 pages</li>
+										<li>hardcover</li>
+										<li>leather cover</li>
+										<li>free shipping</li>
+									</ul>
+									<span>$759</span>
+								</div>
+								<span>Make your PremiumBook</span>
+
+							</div>
 						</div>
-						<span>Make your PremiumBook</span>
 					</div>
 				</div>
 
 			</section>
 
 			<section class="testimonials">
-				<h2>Testimonials</h2>
-				<div class="testimonials__autor">
-					<img src="" alt="">
-					<span>John Doe</span>
-					<span>Wedding photographer</span>
-				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a href="#">Next testimonial</a>
+				<div class="container col-sm-10 col-10">
+					<div class="row">
+						<div class="col-md-6 col-lg-6">
+							<h2>Testimonials</h2>
+							<div class="testimonials__autor">
+								<img src="" alt="">
+								<span>John Doe</span>
+								<span>Wedding photographer</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<a href="#">Next testimonial</a>
+							<a href="#">Make your photobook</a>
+						</div>
 
-				<a href="#">Make your photobook</a>
+					</div>
+				</div>
 			</section>
 
 			<section class="info">
-				<div class="info__item">
-					<h3>Terms</h3>
-					<div class="info__content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+				<div class="container">
+					<div class="container col-sm-10 col-10">
+						<div class="row">
+
+							<div class="col-lg-4 info__item">
+								<h3>Terms</h3>
+								<div class="info__content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+								</div>
+							</div>
+
+							<div class="col-lg-4 info__item">
+								<h3>Payment</h3>
+								<div class="info__content">
+									<span>Payment methods:</span>
+									<ul>
+										<li>Visa</li>
+										<li>MasterCard</li>
+										<li>PayPal</li>
+										<li>American Express</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-4 info__item">
+								<h3>Shipping</h3>
+								<div class="info__content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<b>Free shipping for PremiumBook</b>
+								</div>
+							</div>
+						</div>
+
+						<a href="#">Make your photobook</a>
 					</div>
 				</div>
-				<div class="info__item">
-					<h3>Payment</h3>
-					<div class="info__content">
-						<span>Payment methods:</span>
-						<ul>
-							<li>Visa</li>
-							<li>MasterCard</li>
-							<li>PayPal</li>
-							<li>American Express</li>
-						</ul>
-					</div>
-				</div>
-				<div class="info__item">
-					<h3>Shipping</h3>
-					<div class="info__content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<b>Free shipping for PremiumBook</b>
-					</div>
-				</div>
-				<a href="#">Make your photobook</a>
 			</section>
 
 		</main>
