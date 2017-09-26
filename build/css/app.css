@@ -139,3 +139,6 @@ body {
 
 .testimonials {
   text-align: center; }
+
+.testimonials__next {
+  text-align: right; }
