@@ -378,117 +378,118 @@ body {
   height: 100%; }
 
 body {
+  width: 100%;
   background: #fff;
-    background-width: 100%;
   font-family: 'AgoraLight', Arial, sans-serif; }
 
 .container {
-  margin: 0 auto;
-  width: 1079px; }
+  width: 1079px;
+  margin: 0 auto; }
 
 .button {
   display: inline-block;
-  vertical-align: top;
   max-width: 378px;
   padding: 20px 34px;
+  vertical-align: top;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #212121;
   border: 1px solid #212121;
   border-radius: 8px;
   font-family: 'AgoraThin', sans-serif;
   font-size: 26px;
-  line-height: auto;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #212121;
-  text-transform: uppercase; }
+  line-height: auto; }
 
 .button--red {
-  background-color: #e11a27;
   color: #fff;
-  border-color: #e11a27; }
+  border-color: #e11a27;
+  background-color: #e11a27; }
 
 .nav button {
   cursor: pointer;
   font-size: 0; }
   .nav button::before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
+    width: 162px;
+    height: 19px;
+    content: "";
     background-image: url("../img/icon-menu-open.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    width: 162px;
-    height: 19px; }
+    background-position: center; }
 
 .header__phone {
-  font-size: 16px;
-  background-color: #ffd200;
-  border-radius: 7px;
   color: #212121;
+  border-radius: 7px;
+  background-color: #ffd200;
+  font-size: 16px;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted; }
 
 .header__logout {
-  font-size: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 0; }
   .header__logout::before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
+    width: 33px;
+    height: 29px;
+    content: "";
     background-image: url("../img/logout.png");
     background-repeat: no-repeat;
-    background-position: center;
-    width: 33px;
-    height: 29px; }
+    background-position: center; }
 
 .intro {
-  text-align: center;
   padding-top: 54px;
+  text-align: center;
   background-image: url("../img/main_banner.jpg");
   background-repeat: no-repeat;
   background-position: center; }
   .intro h2 {
+    letter-spacing: 1px;
     font-family: 'AgoraThin', sans-serif;
-    font-size: 60px;
-    letter-spacing: 1px; }
+    font-size: 60px; }
   .intro p {
+    margin-bottom: 70px;
     font-family: 'AgoraLight', sans-serif;
-    font-size: 24px;
-    margin-bottom: 70px; }
+    font-size: 24px; }
 
 .pluses {
   text-align: center; }
   .pluses__item {
-    padding-top: 65px;
-    position: relative; }
+    position: relative;
+    padding-top: 65px; }
     .pluses__item img {
       margin-bottom: 65px; }
     .pluses__item::before {
-      content: "";
       position: absolute;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
       top: 85px;
       left: 50%;
       width: 134px;
       height: 134px;
+      content: "";
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
       border: 5px solid #ffd200;
       border-radius: 100px; }
     .pluses__item h4 {
+      color: #000;
       font-family: 'AgoraLight', sans-serif;
-      font-style: 24px;
-      color: #000; }
+      font-style: 24px; }
 
 .advantage {
-  background-color: #f3f0e7;
-  text-align: center;
   padding-top: 58px;
-  padding-bottom: 77px; }
+  padding-bottom: 77px;
+  text-align: center;
+  background-color: #f3f0e7; }
   .advantage h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-family: 'AgoraThin', sans-serif;
-    font-size: 60px;
-    letter-spacing: 1px; }
+    font-size: 60px; }
   .advantage__item h4 {
     font-family: 'AgoraLight', sans-serif;
     font-size: 24px; }
@@ -497,7 +498,36 @@ body {
     font-size: 16px; }
 
 .solutions {
+  margin-bottom: 83px;
+  padding-top: 58px;
+  padding-bottom: 77px;
   text-align: center; }
+  .solutions h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'AgoraThin', sans-serif;
+    font-size: 60px; }
+  .solutions__item {
+    margin: 30px;
+    padding-top: 45px;
+    border: 1px solid #ffefa5;
+    border-radius: 8px;
+    background-color: #ffd200; }
+    .solutions__item h4 {
+      margin-bottom: 45px;
+      letter-spacing: 1px;
+      font-family: 'AgoraRegular', sans-serif;
+      font-size: 36px; }
+  .solutions__content {
+    width: 100%;
+    height: 282px;
+    margin-bottom: 16px;
+    padding-left: 59px;
+    text-align: left;
+    background-color: #fff; }
+    .solutions__content ul {
+      padding: 0;
+      list-style: none; }
 
 .info {
   text-align: center; }

@@ -2,18 +2,22 @@
 
 @font-face
 	font-family: 'AgoraBold'
+
 	src: url('../fonts/pfagorasanspro-bold.ttf')
 
 @font-face
 	font-family: 'AgoraRegular'
+
 	src: url('../fonts/pfagorasanspro-reg.ttf')
 
 @font-face
 	font-family: 'AgoraLight'
+
 	src: url('../fonts/pfagorasanspro-light.ttf')
 
 @font-face
 	font-family: 'AgoraThin'
+
 	src: url('../fonts/pfagorasanspro-thin.ttf')
 
 
@@ -23,120 +27,146 @@ body
   height: 100%
 
 body
+	width: 100%
+
 	background: #fff
-  width: 100%
+
 	font-family: 'AgoraLight', Arial, sans-serif
 
 .container
-  margin: 0 auto
   width: 1079px
+  margin: 0 auto
 
 .button
 	display: inline-block
-	vertical-align: top
 
 	max-width: 378px
 	padding: 20px 34px
+
+	vertical-align: top
+	text-decoration: none
+	letter-spacing: 1px
+	text-transform: uppercase
+
+	color: #212121
 	border: 1px solid #212121
 	border-radius: 8px
 
 	font-family: 'AgoraThin', sans-serif
 	font-size: 26px
 	line-height: auto
-	letter-spacing: 1px
-	text-decoration: none
-	color: #212121
-	text-transform: uppercase
 
 .button--red
-	background-color: #e11a27
 	color: #fff
 	border-color: #e11a27
+	background-color: #e11a27
 
 .nav
   button
     cursor: pointer
+
     font-size: 0
     &::before
-      content: ""
       position: absolute
       top: 0
       left: 0
-      background-image: url('../img/icon-menu-open.svg')
-      background-repeat: no-repeat
-      background-position: center
+
       width: 162px
       height: 19px
 
+      content: ""
+
+      background-image: url('../img/icon-menu-open.svg')
+      background-repeat: no-repeat
+      background-position: center
+
 .header__phone
-  font-size: 16px
-  background-color: #ffd200
-  border-radius: 7px
   color: #212121
+  border-radius: 7px
+  background-color: #ffd200
+
+  font-size: 16px
+
   text-decoration-style: dotted
 
 .header__logout
-  font-size: 0
   cursor: pointer
+
+  font-size: 0
   &::before
-    content: ""
     position: absolute
     top: 0
     left: 0
-    background-image: url('../img/logout.png')
-    background-repeat: no-repeat
-    background-position: center
+
     width: 33px
     height: 29px
 
+    content: ""
+
+    background-image: url('../img/logout.png')
+    background-repeat: no-repeat
+    background-position: center
+
 .intro
-  text-align: center
   padding-top: 54px
+
+  text-align: center
 
   background-image: url('../img/main_banner.jpg')
   background-repeat: no-repeat
   background-position: center
 		h2
+			letter-spacing: 1px
+
 			font-family: 'AgoraThin', sans-serif
 			font-size: 60px
-			letter-spacing: 1px
 		p
+			margin-bottom: 70px
+
 			font-family: 'AgoraLight', sans-serif
 			font-size: 24px
-			margin-bottom: 70px
 
 .pluses
   text-align: center
 		&__item
-			padding-top: 65px
 			position: relative
+
+			padding-top: 65px
 			img
 				margin-bottom: 65px
 			&::before
-				content: ""
 				position: absolute
-				transform: translate(-50%, -50%)
 				top: 85px
 				left: 50%
+
 				width: 134px
 				height: 134px
+
+				content: ""
+				transform: translate(-50%, -50%)
+
 				border: 5px solid #ffd200
 				border-radius: 100px
 
 			h4
-				font-family: 'AgoraLight', sans-serif
-				font-style: 24px
 				color: #000
 
+				font-family: 'AgoraLight', sans-serif
+				font-style: 24px
+
 .advantage
-	background-color: #f3f0e7
-	text-align: center
 	padding-top: 58px
 	padding-bottom: 77px
+
+	text-align: center
+
+	background-color: #f3f0e7
 	h2
+		letter-spacing: 1px
+		text-transform: uppercase
+
 		font-family: 'AgoraThin', sans-serif
 		font-size: 60px
-		letter-spacing: 1px
 	&__item
 		h4
 			font-family: 'AgoraLight', sans-serif
@@ -146,7 +176,47 @@ body
 			font-size: 16px
 
 .solutions
-  text-align: center
+	margin-bottom: 83px
+	padding-top: 58px
+	padding-bottom: 77px
+
+	text-align: center
+
+	h2
+		letter-spacing: 1px
+		text-transform: uppercase
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 60px
+	&__item
+		margin: 30px
+
+		padding-top: 45px
+
+		border: 1px solid #ffefa5
+		border-radius: 8px
+		background-color: #ffd200
+
+		h4
+			margin-bottom: 45px
+
+			letter-spacing: 1px
+
+			font-family: 'AgoraRegular', sans-serif
+			font-size: 36px
+	&__content
+		width: 100%
+		height: 282px
+		margin-bottom: 16px
+		padding-left: 59px
+
+		text-align: left
+
+		background-color: #fff
+		ul
+			padding: 0
+
+			list-style: none
 
 .info
   text-align: center
