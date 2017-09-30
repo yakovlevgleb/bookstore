@@ -401,40 +401,52 @@ body {
   font-size: 26px;
   line-height: auto; }
 
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; }
+
 .button--red {
   color: #fff;
   border-color: #e11a27;
   background-color: #e11a27; }
 
 .nav button {
-  cursor: pointer;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
   font-size: 0; }
   .nav button::before {
     position: absolute;
-    top: 0;
+    top: 10%;
     left: 0;
-    width: 162px;
-    height: 19px;
+    width: 20px;
+    height: 20px;
     content: "";
     background-image: url("../img/icon-menu-open.svg");
     background-repeat: no-repeat;
     background-position: center; }
 
 .header__phone {
+  padding: 10px 36px;
   color: #212121;
-  border-radius: 7px;
+  border-radius: 8px;
   background-color: #ffd200;
+  font-family: 'AgoraLight', sans-serif;
   font-size: 16px;
   -webkit-text-decoration-style: dotted;
           text-decoration-style: dotted; }
 
 .header__logout {
+  margin: 0 !important;
+  padding: 0 !important;
   cursor: pointer;
+  border: none !important;
   font-size: 0; }
   .header__logout::before {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 15%;
+    right: 0;
     width: 33px;
     height: 29px;
     content: "";
@@ -459,8 +471,12 @@ body {
     margin-bottom: 70px;
     font-family: 'AgoraLight', sans-serif;
     font-size: 24px; }
+  .intro .button {
+    margin-bottom: 200px; }
 
 .pluses {
+  padding-top: 55px;
+  padding-bottom: 92px;
   text-align: center; }
   .pluses__item {
     position: relative;
@@ -495,12 +511,16 @@ body {
     font-size: 48px; }
     .advantage h2 span {
       font-size: 60px; }
-  .advantage__item h4 {
-    font-family: 'AgoraLight', sans-serif;
-    font-size: 24px; }
-  .advantage__item p {
-    font-family: 'AgoraLight', sans-serif;
-    font-size: 16px; }
+  .advantage__item {
+    margin-bottom: 60px; }
+    .advantage__item img {
+      margin-bottom: 20px; }
+    .advantage__item h4 {
+      font-family: 'AgoraLight', sans-serif;
+      font-size: 24px; }
+    .advantage__item p {
+      font-family: 'AgoraLight', sans-serif;
+      font-size: 16px; }
 
 .solutions {
   margin-bottom: 83px;
@@ -623,13 +643,13 @@ body {
     font-family: 'AgoraLight', sans-serif;
     font-size: 18px; }
   .testimonials__comment {
-    width: 539px;
+    max-width: 539px;
     margin-bottom: 40px;
     font-family: 'AgoraLight', sans-serif;
     font-size: 18px; }
   .testimonials__next {
-    text-align: right;
-    margin-bottom: 70px; }
+    margin-bottom: 70px;
+    text-align: right; }
     .testimonials__next a {
       color: #000;
       font-family: 'AgoraThin', sans-serif;

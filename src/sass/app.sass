@@ -56,56 +56,74 @@ body
 	font-size: 26px
 	line-height: auto
 
+.header
+	padding-top: 30px
+	padding-bottom: 30px
+
+	text-align: center
+
 .button--red
 	color: #fff
 	border-color: #e11a27
 	background-color: #e11a27
 
 .nav
-  button
-    cursor: pointer
+	button
+		margin: 0 !important
+		padding: 0 !important
 
-    font-size: 0
-    &::before
-      position: absolute
-      top: 0
-      left: 0
+		border: none !important
 
-      width: 162px
-      height: 19px
+		font-size: 0
+		&::before
+			position: absolute
+			top: 10%
+			left: 0
 
-      content: ""
+			width: 20px
+			height: 20px
 
-      background-image: url('../img/icon-menu-open.svg')
-      background-repeat: no-repeat
-      background-position: center
+			content: ""
+
+			background-image: url('../img/icon-menu-open.svg')
+			background-repeat: no-repeat
+			background-position: center
 
 .header__phone
-  color: #212121
-  border-radius: 7px
-  background-color: #ffd200
+	padding: 10px 36px
 
-  font-size: 16px
+	color: #212121
+	border-radius: 8px
+	background-color: #ffd200
 
-  text-decoration-style: dotted
+	font-family: 'AgoraLight', sans-serif
+	font-size: 16px
+
+	text-decoration-style: dotted
 
 .header__logout
-  cursor: pointer
+	margin: 0 !important
+	padding: 0 !important
 
-  font-size: 0
-  &::before
-    position: absolute
-    top: 0
-    left: 0
+	cursor: pointer
 
-    width: 33px
-    height: 29px
+	border: none !important
 
-    content: ""
+	font-size: 0
+	&::before
+		position: absolute
+		top: 15%
+		right: 0
 
-    background-image: url('../img/logout.png')
-    background-repeat: no-repeat
-    background-position: center
+		width: 33px
+		height: 29px
+
+		content: ""
+
+		background-image: url('../img/logout.png')
+		background-repeat: no-repeat
+		background-position: center
+
 
 .intro
   padding-top: 54px
@@ -128,34 +146,39 @@ body
 
 			font-family: 'AgoraLight', sans-serif
 			font-size: 24px
+		.button
+			margin-bottom: 200px
+
 
 .pluses
-  text-align: center
-		&__item
-			position: relative
+	padding-top: 55px
+	padding-bottom: 92px
 
-			padding-top: 65px
-			img
-				margin-bottom: 65px
-			&::before
-				position: absolute
-				top: 85px
-				left: 50%
+	text-align: center
+	&__item
+		position: relative
 
-				width: 134px
-				height: 134px
+		padding-top: 65px
+		img
+			margin-bottom: 65px
+		&::before
+			position: absolute
+			top: 85px
+			left: 50%
 
-				content: ""
-				transform: translate(-50%, -50%)
+			width: 134px
+			height: 134px
 
-				border: 5px solid #ffd200
-				border-radius: 100px
+			content: ""
+			transform: translate(-50%, -50%)
 
-			h4
-				color: #000
+			border: 5px solid #ffd200
+			border-radius: 100px
+		h4
+			color: #000
 
-				font-family: 'AgoraLight', sans-serif
-				font-style: 24px
+			font-family: 'AgoraLight', sans-serif
+			font-style: 24px
 
 .advantage
 	padding-top: 58px
@@ -174,6 +197,9 @@ body
 			font-size: 60px
 
 	&__item
+		margin-bottom: 60px
+		img
+			margin-bottom: 20px
 		h4
 			font-family: 'AgoraLight', sans-serif
 			font-size: 24px
@@ -352,15 +378,16 @@ body
 
 
 	&__comment
-		width: 539px
+		max-width: 539px
 		margin-bottom: 40px
 
 		font-family: 'AgoraLight', sans-serif
 		font-size: 18px
 
 	&__next
-		text-align: right
 		margin-bottom: 70px
+
+		text-align: right
 		a
 			color: #000
 
