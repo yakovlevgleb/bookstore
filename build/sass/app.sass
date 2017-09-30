@@ -41,7 +41,7 @@ body
 	display: inline-block
 
 	max-width: 378px
-	padding: 20px 34px
+	padding: 15px 34px
 
 	vertical-align: top
 	text-decoration: none
@@ -292,12 +292,85 @@ body
 
 
 .testimonials
-  text-align: center
+	padding-top: 40px
+	padding-bottom: 54px
 
-.testimonials__next
-  text-align: right
+	background-image: url('../img/second_banner.jpg')
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+
+	h2
+		margin-bottom: 70px
+
+		text-transform: uppercase
+
+		font-family: 'AgoraThin', sans-serif
+		font-size: 48px
+		span
+			font-size: 60px
+
+	&__autor
+		position: relative
+
+		margin-bottom: 70px
+		padding-left: 178px
+
+		&::before
+			position: absolute
+			top: 30px
+			left: 75px
+
+			width: 158px
+			height: 158px
+
+			content: ""
+			transform: translate(-50%, -50%)
+
+			background-image: url('../img/john.png')
+			background-repeat: no-repeat
+			background-position: center
+
+	&__name
+		display: block
+
+		letter-spacing: 1px
+		text-transform: uppercase
+
+		color: #000
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 30px
+
+	&__prof
+		display: block
+
+		color: #000
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 18px
+
+
+	&__comment
+		width: 539px
+		margin-bottom: 40px
+
+		font-family: 'AgoraLight', sans-serif
+		font-size: 18px
+
+	&__next
+		text-align: right
+		margin-bottom: 70px
+		a
+			color: #000
+
+			font-family: 'AgoraThin', sans-serif
+			font-size: 16px
 
 .info
+	padding-top: 91px
+	padding-bottom: 119px
+
 	text-align: center
 
 	&__item
@@ -343,3 +416,7 @@ body
 			color: #e11a27
 
 			font-weight: bold
+
+
+.footer
+	background-color: #ffd200

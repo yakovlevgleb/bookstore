@@ -389,7 +389,7 @@ body {
 .button {
   display: inline-block;
   max-width: 378px;
-  padding: 20px 34px;
+  padding: 15px 34px;
   vertical-align: top;
   text-decoration: none;
   letter-spacing: 1px;
@@ -581,12 +581,63 @@ body {
     font-size: 22px; }
 
 .testimonials {
-  text-align: center; }
-
-.testimonials__next {
-  text-align: right; }
+  padding-top: 40px;
+  padding-bottom: 54px;
+  background-image: url("../img/second_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .testimonials h2 {
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-family: 'AgoraThin', sans-serif;
+    font-size: 48px; }
+    .testimonials h2 span {
+      font-size: 60px; }
+  .testimonials__autor {
+    position: relative;
+    margin-bottom: 70px;
+    padding-left: 178px; }
+    .testimonials__autor::before {
+      position: absolute;
+      top: 30px;
+      left: 75px;
+      width: 158px;
+      height: 158px;
+      content: "";
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      background-image: url("../img/john.png");
+      background-repeat: no-repeat;
+      background-position: center; }
+  .testimonials__name {
+    display: block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'AgoraLight', sans-serif;
+    font-size: 30px; }
+  .testimonials__prof {
+    display: block;
+    color: #000;
+    font-family: 'AgoraLight', sans-serif;
+    font-size: 18px; }
+  .testimonials__comment {
+    width: 539px;
+    margin-bottom: 40px;
+    font-family: 'AgoraLight', sans-serif;
+    font-size: 18px; }
+  .testimonials__next {
+    text-align: right;
+    margin-bottom: 70px; }
+    .testimonials__next a {
+      color: #000;
+      font-family: 'AgoraThin', sans-serif;
+      font-size: 16px; }
 
 .info {
+  padding-top: 91px;
+  padding-bottom: 119px;
   text-align: center; }
   .info__item {
     width: 314px;
@@ -619,3 +670,6 @@ body {
     .info__content b {
       color: #e11a27;
       font-weight: bold; }
+
+.footer {
+  background-color: #ffd200; }
