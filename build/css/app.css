@@ -423,6 +423,7 @@ body {
     width: 20px;
     height: 20px;
     content: "";
+    cursor: pointer;
     background-image: url("../img/icon-menu-open.svg");
     background-repeat: no-repeat;
     background-position: center; }
@@ -459,7 +460,8 @@ body {
   text-align: center;
   background-image: url("../img/main_banner.jpg");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   .intro h2 {
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -679,7 +681,7 @@ body {
       font-size: 36px; }
   .info__content {
     min-height: 236px;
-    padding: 30px;
+    padding: 20px;
     text-align: left;
     color: #000;
     border-bottom-right-radius: 8px;
@@ -692,4 +694,64 @@ body {
       font-weight: bold; }
 
 .footer {
+  padding-top: 80px;
+  padding-bottom: 53px;
+  text-align: center;
   background-color: #ffd200; }
+  .footer__links {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 0;
+    list-style: none;
+    text-align: left; }
+    .footer__links li a {
+      color: #000;
+      font-family: 'AgoraRegular', sans-serif;
+      font-size: 18px; }
+    .footer__links::before {
+      position: absolute;
+      top: -30px;
+      left: 0;
+      width: 152px;
+      height: 1px;
+      content: "";
+      background-color: #000; }
+  .footer__copyrights {
+    color: #000;
+    font-family: 'AgoraRegular', sans-serif;
+    font-size: 18px; }
+
+.socials {
+  padding-right: 43px;
+  text-align: right;
+  font-size: 0; }
+  .socials::before {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 152px;
+    height: 1px;
+    content: "";
+    background-color: #000; }
+  .socials__btn {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 18px;
+    text-decoration: none; }
+    .socials__btn::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 24px;
+      height: 24px;
+      content: "";
+      background-repeat: no-repeat;
+      background-position: center; }
+    .socials__btn--fb::before {
+      background-image: url("../img/fb.png"); }
+    .socials__btn--vk::before {
+      background-image: url("../img/vk.png"); }
+    .socials__btn--inst::before {
+      background-image: url("../img/instagram.png"); }
